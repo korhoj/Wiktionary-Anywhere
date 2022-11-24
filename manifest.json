@@ -3,7 +3,7 @@
 
   "manifest_version": 2,
   "name": "Wiktionary Anywhere",
-  "version": "0.0.3",
+  "version": "0.0.5",
 
   "description": "View Wiktionary definitions easily as you browse the web. Double-click any word to view its definition in a small pop-up bubble.",
 
