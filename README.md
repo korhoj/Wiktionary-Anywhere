@@ -2,7 +2,7 @@
 The **Wiktionary Anywhere** extension helps you stay focused on what you are reading by eliminating the need to search for meaning. 
 Double-clicking any word will view its definition in a small pop-up bubble. 
 Now you never have to leave what you are reading to search for the meaning of the words you don't yet know.
-This is a fork from the original which uses Google's "define" search as the search engine for word definitions.
+This is a fork from the original which uses Wiktionary instead of Google's "define" search as the search engine for word definitions.
 
 Extension will be available for [Mozilla Firefox](https://addons.mozilla.org/en-US/firefox/addon/wiktionary-anywhere).
 
