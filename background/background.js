@@ -6,7 +6,7 @@ const GOOGLE_SPEECH_URI = 'https://www.google.com/speech-api/v1/synthesize',
 
 browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
     const { word, lang } = request, 
-        url = `https://www.google.com/search?hl=${lang}&q=define+${word}&gl=US`;
+        url = `https://${lang}.wiktionary.org/wiki/${word}`;
     
     fetch(url, { 
             method: 'GET',
