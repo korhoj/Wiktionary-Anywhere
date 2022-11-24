@@ -30,16 +30,30 @@ browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
 });
 
 function extractMeaning (document, context) {
-    if (!document.querySelector("[data-dobid='hdw']")) { return null; }
+    //if (!document.querySelector("[data-dobid='hdw']")) { return null; }
+    if (!document.querySelector("span[class='mw-page-title-main']")) { return null; }
     
-    var word = document.querySelector("[data-dobid='hdw']").textContent,
+    /*var word = document.querySelector("[data-dobid='hdw']").textContent,
         definitionDiv = document.querySelector("div[data-dobid='dfn']"),
+        meaning = "";*/
+    /*<span class="mw-page-title-main">injures</span>
+    <span class="mw-headline" id="English">English</span>
+    <div class="mw-parser-output">
+    <span class="mw-headline" id="Verb">Verb</span>*/
+    
+    var word = document.querySelector("span[class='mw-page-title-main']").textContent,
+        definitionDiv = document.querySelector("div[class='mw-parser-output']"),
         meaning = "";
-
+    
     if (definitionDiv) {
-        definitionDiv.querySelectorAll("span").forEach(function(span){
+        /*definitionDiv.querySelectorAll("span").forEach(function(span){
+            meaning = meaning + span.textContent;
             if(!span.querySelector("sup"))
                  meaning = meaning + span.textContent;
+        });*/
+        
+        definitionDiv.querySelectorAll("span").forEach(function(span){
+            meaning = meaning + span.textContent;
         });
     }
 
