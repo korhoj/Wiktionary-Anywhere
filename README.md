@@ -4,7 +4,7 @@ Double-clicking any word will view its definition in a small pop-up bubble.
 Now you never have to leave what you are reading to search for the meaning of the words you don't yet know.
 This is a fork from the original which uses Google's "define" search as the search engine for word definitions.
 
-Extension will be available for [Mozilla Firefox](https://addons.mozilla.org/en-US/firefox/addon/wiktionary-anyvhere).
+Extension will be available for [Mozilla Firefox](https://addons.mozilla.org/en-US/firefox/addon/wiktionary-anywhere).
 
 ##### Enjoy Reading Uninterrupted!!!
 
