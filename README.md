@@ -1,4 +1,9 @@
 # Wiktionary Anywhere
+
+<h1>Warning</h1>
+This fork is currently in ALPHA stage, and may or may not be further developed.
+
+<h1>Description</h1>
 The **Wiktionary Anywhere** extension helps you stay focused on what you are reading by eliminating the need to search for meaning. 
 Double-clicking any word will view its definition in a small pop-up bubble. 
 Now you never have to leave what you are reading to search for the meaning of the words you don't yet know.
