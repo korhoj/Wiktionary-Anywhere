@@ -40,6 +40,6 @@
 
   "permissions": [
     "storage",
-    "https://wiktionary.org/"
+    "https://en.wiktionary.org/*"
   ]
 }
